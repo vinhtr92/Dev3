@@ -1,0 +1,45 @@
+.items-border > li {
+	border-bottom: 1px solid #E7EAEE;
+}
+
+
+// Fix JSN ImageShow Theme Masonry.
+@media (max-width: $screen-xs-max) {
+	[id*='jsn-thememasonry-container'] .jsn-is-msnry-grid {
+	     width: 100% !important; 
+	}
+}
+
+@media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+	.jsn-is-msnry-grid {
+	    margin: 0 auto;
+	}
+}
+span[class*="icon-"] {
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+}
+.icon-user:before {
+  content: "\f007";
+}
+.icon-file:before {
+  content: "\f15b";
+}
+.icon-edit:before{
+  content:'\f044';
+}
+.icon-remove:before {
+  content: "\f00d";
+}
+// .icon-save:before {
+//   content: "\f0c7";
+// }
+// .icon-cancel::before {
+//   content: "\f0c7";
+// }
+.btn.jmodedit{
+  padding: 10px;
+  border: 1px solid;
+  background: #fff;
+}
